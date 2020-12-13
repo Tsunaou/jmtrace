@@ -1,0 +1,2 @@
+# jmtrace
+jmtrace是一款通过程序插桩方式hack Java程序从而允许用户打印对共享内存访问信息的工具
