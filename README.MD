@@ -62,7 +62,19 @@ mvn package
 ```bash
 java -javaagent:./jmtrace-jar-with-dependencies.jar  -jar <the-jar-file-to-hack>
 ```
-本地提供了用于测试的`HelloWorld.jar`包，以及用于测试的脚本`test.sh`。运行测试脚本即可得到类似的输出。
+本地提供了用于测试的`HelloWorld.jar`包，以及用于测试的脚本`test.sh`。
+
+运行测试脚本即可得到形如样例输出的结果。
+若提示权限不够，可以直接运行命令
+```bash
+java -javaagent:./target/jmtrace-jar-with-dependencies.jar  -jar ./HelloWorld.jar
+```
+或者改变用户权限
+```bash
+chmod +x ./test.sh
+```
+随后运行脚本即可
+### 3. 样例输出
 ```bash
 $ ./test.sh
 Hello World!
