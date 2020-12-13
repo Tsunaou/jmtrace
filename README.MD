@@ -41,7 +41,8 @@ java -javaagent:./jmtrace-jar-with-dependencies.jar  -jar <the-jar-file-to-hack>
 
 ## 使用示例
 
-在主目录下提供了`HelloWorld.jar`以供测试。
+我们提供了一个[HelloWorld.jar](https://tsunaou.github.io/HelloWorld.jar)以供测试。可以点击链接将该文件下载到当前目录。
+
 ### 1. 编译打包
 首先，在当前目录运行
 ```bash
